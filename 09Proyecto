@@ -1,0 +1,25 @@
+#include<stdio.h>
+//Stephany Danae Perez Retana
+//Calcula el perimetro de un triangulo.
+
+main () {
+//Declaro variables
+float base;
+float altura;
+float perimetro;
+
+//Imprimo mensaje en la pantalla
+printf ("Ingresa el valor de la base: ");
+
+//Guardo el valor ingresado en la variable
+scanf ("%f", &base);
+
+printf ("Ingresa el valor de la altura: ");
+scanf ("%f", &altura);
+
+
+//Realizo la suma
+perimetro = (base * altura) / 2;
+
+printf("El perimetro del triangulo es: %.2f ", perimetro);
+}
