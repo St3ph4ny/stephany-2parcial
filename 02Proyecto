@@ -1,0 +1,21 @@
+#include<stdio.h>
+//Stephany Danae Perez Retana
+//Programa para imprimir la conversion de cm a pulgadas,
+
+main () {
+//Declaro variables
+float var1;  //variable de cm
+float var2 = 2.54;  // variable de pulgadas
+float resultado;
+
+//Imprimo mensaje en la pantalla
+printf ("Ingresa el valor de los centimetros:\n");
+
+//Guardo el valor ingresado en la variable
+scanf ("%f", &var1);
+
+//Realizo la suma
+resultado = (var1 * var2);
+
+printf("La conversion del valor ingresado a pulgadas es: %f \n", resultado);
+}
