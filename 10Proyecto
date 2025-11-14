@@ -1,0 +1,28 @@
+#include<stdio.h>
+//Stephany Danae Perez Retana
+//Calcula el area y volumen de un cilintro
+
+main () {
+//Declaro variables
+float radio;
+float altura;
+float area;
+float volumen;
+
+//Imprimo mensaje en la pantalla
+printf ("Ingresa el valor del radio del cilindro: ");
+
+//Guardo el valor ingresado en la variable
+scanf ("%f", &radio);
+
+printf ("Ingresa el valor de la altura del cilindro: ");
+scanf ("%f", &altura);
+
+
+//Realizo la suma
+area = ( 2 * 3.1416 * radio * (radio + altura)) ;
+volumen = (3.1416 * (radio * radio)  * altura);
+
+printf("\n\nEl area del cilidro es de : %.2f  ", area);
+printf("\nEl volumen del cilidro es de : %.2f ", volumen);
+}
