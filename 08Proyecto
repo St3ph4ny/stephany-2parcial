@@ -1,0 +1,33 @@
+#include<stdio.h>
+//Stephany Danae Perez Retana
+//Calcular el cambio de una compra.
+
+main () {
+//Declaro variables
+float costo = 10;
+float dulces;
+float billete;
+float cambio;
+
+printf ("El costo del dulce es de $ 10 pesos: \n");
+
+//Imprimo mensaje en la pantalla
+printf ("Cuantos dulces quiere comprar?: ");
+
+//Guardo el valor ingresado en la variable
+scanf ("%f", &dulces);
+
+printf ("Ingresa el valor del billete con el que paga: ");
+scanf ("%f", &billete);
+
+cambio = billete - (costo * dulces);
+
+printf ("\n\nTu cambio es de %.2f:", cambio );
+
+
+
+//Realizo la suma
+//suma = (var1 + var2 + var3);
+
+//printf("La suma de los 3 numeros es: %.2f \n", suma);
+}
