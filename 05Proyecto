@@ -1,0 +1,21 @@
+#include<stdio.h>
+//Stephany Danae Perez Retana
+//Ingresa el nombre y modelo del automovil
+
+main () {
+//Declaro variables
+char marca[30];
+char modelo[30];
+
+//Imprimo mensaje en la pantalla
+printf ("Ingresa el nombre de la marca del automovil: ");
+
+//Guardo el valor ingresado en la variable
+scanf ("%s", &marca);
+
+printf ("Ingresa el nombre del modelo del automovil: ");
+scanf ("%s", &modelo);
+
+printf( "El modelo del carro es:  %s", modelo);
+printf(" y la marca del carro es: %s \n", marca);
+}
