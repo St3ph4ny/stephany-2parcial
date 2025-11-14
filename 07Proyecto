@@ -1,0 +1,20 @@
+#include<stdio.h>
+//Stephany Danae Perez Retana
+//Leer un numero e imprimir su cuadrado
+
+main () {
+//Declaro variables
+float var1;
+float cuadrado;
+
+//Imprimo mensaje en la pantalla
+printf ("Ingresa un valor para imprimir su cuadrado: ");
+
+//Guardo el valor ingresado en la variable
+scanf ("%f", &var1);
+
+//Realizo la suma
+cuadrado = (var1 + var1);
+
+printf("El cuadrado del numero ingresado es: %.2f  ", cuadrado);
+}
