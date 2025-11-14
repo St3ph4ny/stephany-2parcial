@@ -1,0 +1,21 @@
+#include<stdio.h>
+//Stephany Danae Perez Retana
+//Programa para convertir kilometros a millas.
+
+main () {
+//Declaro variables
+float var_km;  //variable
+float var_millas = 1.6;  // variable
+float resultado;
+
+//Imprimo mensaje en la pantalla
+printf ("Ingresa el valor de los kilometros: ");
+
+//Guardo el valor ingresado en la variable
+scanf ("%f", &var_km);
+
+//Realizo la suma
+resultado = (var_km * var_millas);
+
+printf("La conversion de kilomtros a millas es: %f \n", resultado);
+}
