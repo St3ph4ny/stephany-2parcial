@@ -1,0 +1,18 @@
+#include<stdio.h>
+//Stephany Danae Perez Retana
+//Calcula y escriba el cuadrado de 243
+
+main () {
+//Declaro variables
+float var1 = 243;
+float cuadrado;
+
+//Imprimo mensaje en la pantalla
+printf ("EL valor es de 243 :\n");
+
+
+//Realizo el cuadrado
+cuadrado = (var1 * var1);
+
+printf("El cuadrado de 243 es: %.2f \n", cuadrado);
+}
