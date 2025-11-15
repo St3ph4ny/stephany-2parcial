@@ -1,0 +1,38 @@
+#include<stdio.h>
+//Stephany Danae Perez Retana
+//Costo de un terreno rectangular con descuento.
+
+main () {
+//Declaro variables
+float m2 = 750;
+float largo;
+float ancho;
+float area;
+float costo;
+
+//Imprimo mensaje en la pantalla
+printf ("El costo por metro cuadrado es de $750: \n");
+
+
+printf ("Ingresa los metros de largo del terreno: ");
+scanf ("%f", &largo);
+
+printf ("Ingresa los metros de ancho del terreno: ");
+scanf ("%f", &ancho);
+
+area = (largo * ancho) /2;
+costo = area * m2;
+printf("El area del terreno es de : %.2f \n", area);
+
+if (area < 500)
+  printf("El costo del terreno es de : %.2f \n", costo);
+else
+{
+  area = (largo * ancho) /2;
+  costo = (area * m2)  - ((area * m2) *.10);
+  printf("El area del terreno es mayor a 500m \n");
+  printf("El costo del terreno es de : %.2f \n", costo);
+
+}
+
+}
