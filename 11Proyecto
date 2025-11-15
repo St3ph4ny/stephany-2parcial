@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<math.h>
+//Stephany Danae Perez Retana
+//Calcula la hipotenusa de un triangulo equilatero.
+
+main () {
+//Declaro variables
+float cateto1;
+float cateto2;
+float a;
+float b;
+float c;
+float raiz;
+float hipotenusa;
+
+//Imprimo mensaje en la pantalla
+printf ("Ingresa el valor del cateto 1: ");
+scanf ("%f", &cateto1);
+
+printf ("Ingresa el valor del cateto 2: ");
+scanf ("%f", &cateto2);
+
+//Realizo la multiplicacion
+a = (cateto1 * cateto1);
+b = (cateto2 * cateto2);
+c = a + b;
+hipotenusa = sqrt(c);
+
+printf("El valor de la hipotenusa es: %.2f \n", hipotenusa);
+}
