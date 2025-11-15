@@ -1,0 +1,34 @@
+#include<stdio.h>
+//Stephany Danae Perez Retana
+//Calcula el area y perimetro de un triangulo.
+
+main () {
+//Declaro variables
+float base;
+float altura;
+float lado_c;
+float area;
+float perimetro;
+
+//Imprimo mensaje en la pantalla
+printf ("Se caculara el area y perimetro de un triangulo: \n\n");
+
+//Guardo el valor ingresado en la variable
+//scanf ("%f", &var1);
+
+printf ("Ingresa el valor de la base del triangulo: ");
+scanf ("%f", &base);
+
+printf ("Ingresa el valor de la altura del triangulo: ");
+scanf ("%f", &altura);
+
+printf ("Ingresa el valor del tercer lado del triangulo: ");
+scanf ("%f", &lado_c);
+
+//Realizo la operacion
+area = (base * altura ) / 2;
+perimetro = (base + altura + lado_c);
+
+printf("El area del triangulo es de : %.2f \n", area);
+printf("El perimetro del triangulo es de : %.2f \n", perimetro);
+}
