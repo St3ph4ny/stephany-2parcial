@@ -1,0 +1,62 @@
+#include<stdio.h>
+//Stephany Danae Perez Retana
+
+main () {
+//Declaro variables
+int num_a;
+int num_b;
+int num_c;
+
+//Imprimo mensaje en la pantalla
+printf ("Ingresa un numero: ");
+scanf ("%d", &num_a);
+
+printf ("Ingresa otro numero: ");
+scanf ("%d", &num_b);
+
+printf ("Ingresa otro numero: ");
+scanf ("%d", &num_c);
+
+// Valor A
+ if (num_a >= num_b && num_a >= num_c) {
+    if (num_b >= num_c){
+        printf("%d ", num_a);
+        printf("%d ", num_b);
+        printf("%d ", num_c);
+    }
+    else{
+        printf("%d ", num_a);
+        printf("%d ", num_c);
+        printf("%d ", num_b);
+    }
+}
+
+// Valor B
+ else if (num_b >= num_a && num_b >= num_c) {
+    if (num_a >= num_c){
+        printf("%d ", num_b);
+        printf("%d ", num_a);
+        printf("%d ", num_c);
+    }
+    else{
+        printf("%d ", num_b);
+        printf("%d ", num_c);
+        printf("%d ", num_a);
+    }
+}
+
+// Valor C
+  else {
+    if (num_a >= num_b){
+        printf("%d ", num_c);
+        printf("%d ", num_a);
+        printf("%d ", num_b);
+    }
+    else{
+        printf("%d ", num_c);
+        printf("%d ", num_b);
+        printf("%d ", num_a);
+    }
+  }
+}
+
