@@ -1,0 +1,34 @@
+#include<stdio.h>
+//Stephany Danae Perez Retana
+//Leer el promedio de un alumno 3 materias y ver si esta excento
+
+main () {
+//Declaro variables
+float calificacion_1;
+float calificacion_2;
+float calificacion_3;
+float promedio;
+int total;
+
+//Imprimo mensaje en la pantalla
+printf ("Ingresa la calificacion 1: ");
+scanf ("%f", &calificacion_1);
+
+printf ("Ingresa la calificacion 2: ");
+scanf ("%f", &calificacion_2);
+
+printf ("Ingresa la calificacion 3: ");
+scanf ("%f", &calificacion_3);
+
+promedio = (calificacion_1 + calificacion_2 + calificacion_3) / 3;
+printf("El promedio del alumno es: %.2f ", promedio);
+
+if (promedio >= 9)
+    printf("  --> Exento \n");
+else if(promedio >6 && promedio <9)
+    printf("  --> Ordinario \n");
+else if(promedio < 6)
+    printf("  --> Extra \n");
+
+
+}
