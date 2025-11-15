@@ -1,0 +1,24 @@
+#include<stdio.h>
+//Stephany Danae Perez Retana
+//Calcula la edad de una persona en años
+
+main () {
+//Declaro variables
+float anio_actual = 2025;
+float anio_nacimiento;
+int total;
+
+//Imprimo mensaje en la pantalla
+printf ("Se calcula la edad de persona en anios: \n\n");
+
+//Guardo el valor ingresado en la variable
+//scanf ("%f", &var1);
+
+printf ("En que anio naciste?: ");
+scanf ("%f", &anio_nacimiento);
+
+//Realizo la operacion
+total = (anio_actual - anio_nacimiento );
+
+printf("Tu edad es de  %d anios \n", total);
+}
