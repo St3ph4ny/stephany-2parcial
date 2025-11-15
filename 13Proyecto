@@ -1,0 +1,29 @@
+#include<stdio.h>
+//Stephany Danae Perez Retana
+//Costo de un terreno rectangular.
+
+main () {
+//Declaro variables
+float m2 = 1500;
+float largo;
+float ancho;
+float costo;
+
+//Imprimo mensaje en la pantalla
+printf ("El costo por metro cuadrado es de $1,500: \n");
+
+//Guardo el valor ingresado en la variable
+//scanf ("%f", &var1);
+
+printf ("Ingresa los metros de largo del terreno: ");
+scanf ("%f", &largo);
+
+printf ("Ingresa los metros de ancho del terreno: ");
+scanf ("%f", &ancho);
+
+
+//Realizo la multiplicacion
+costo = (largo * ancho * m2);
+
+printf("El costo del terreno es de : %.2f \n", costo);
+}
