@@ -1,0 +1,20 @@
+#include<stdio.h>
+//Stephany Danae Perez Retana
+//Leer el promedio de un alumno
+
+main () {
+//Declaro variables
+float promedio;
+int total;
+
+//Imprimo mensaje en la pantalla
+printf ("Leer el promedio de un alumno: \n\n");
+
+printf ("Ingresa el promedio del alumno: ");
+scanf ("%f", &promedio);
+
+if (promedio > 5)
+    printf("Aprobado \n");
+else
+    printf("Reprobado \n");
+}
