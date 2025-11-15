@@ -1,0 +1,21 @@
+#include<stdio.h>
+//Stephany Danae Perez Retana
+//Resuelve ecuacion de primer grado
+
+main () {
+//Declaro variables
+int x;
+int numero;
+
+//Imprimo mensaje en la pantalla
+printf ("Ecuacion de primer grado: X + 5 = 15 \n");
+printf ("X = ? \n");
+//scanf ("%d", &numero);
+
+//Realizo la multiplicacion
+x = 15 - 5;
+
+printf("X= %d ", x);
+
+}
+
