@@ -1,0 +1,32 @@
+#include<stdio.h>
+//Stephany Danae Perez Retana
+
+main () {
+//Declaro variables
+float numero_1;
+float numero_2;
+float numero_3;
+float numero_4;
+float numero_5;
+float promedio;
+
+//Imprimo mensaje en la pantalla
+printf ("Ingresa la longitud del lado 1 del triangulo: ");
+scanf ("%f", &numero_1);
+
+printf ("Ingresa la longitud del lado 2 del triangulo: ");
+scanf ("%f", &numero_2);
+
+printf ("Ingresa la longitud del lado 3 del triangulo: ");
+scanf ("%f", &numero_3);
+
+
+if (numero_1 == numero_2 && numero_1 == numero_3)
+   printf("Triangulo equilatero.");
+
+else if (numero_1 == numero_2 && numero_1 != numero_3)
+   printf("Triangulo isoceles.");
+
+else if (numero_1 != numero_2 && numero_1 != numero_3)
+   printf("Triangulo escaleno.");
+}
