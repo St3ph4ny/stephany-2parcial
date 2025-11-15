@@ -24,7 +24,7 @@ promedio = (calificacion_1 + calificacion_2 + calificacion_3) / 3;
 printf("El promedio del alumno es: %.2f ", promedio);
 
 if (promedio >= 9)
-    printf("  --> Excento \n");
+    printf("  --> Exento \n");
 else
     printf("  --> Ordinario \n");
 }
