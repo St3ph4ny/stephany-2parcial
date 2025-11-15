@@ -1,0 +1,35 @@
+#include<stdio.h>
+//Stephany Danae Perez Retana
+
+main () {
+//Declaro variables
+float numero_1;
+float numero_2;
+float numero_3;
+float numero_4;
+float numero_5;
+float promedio;
+
+//Imprimo mensaje en la pantalla
+printf ("Ingresa la calificacion 1: ");
+scanf ("%f", &numero_1);
+
+printf ("Ingresa la calificacion 2: ");
+scanf ("%f", &numero_2);
+
+printf ("Ingresa la calificacion 3: ");
+scanf ("%f", &numero_3);
+
+printf ("Ingresa la calificacion 4: ");
+scanf ("%f", &numero_4);
+
+printf ("Ingresa la calificacion 5: ");
+scanf ("%f", &numero_5);
+
+promedio = (numero_1 + numero_2 + numero_3 + numero_4 + numero_5) / 5;
+
+if (promedio > 5)
+   printf("Aprobado: %f \n", promedio);
+else
+    printf("Reprobado: %f \n", promedio);
+}
