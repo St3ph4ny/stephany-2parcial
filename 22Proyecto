@@ -1,0 +1,21 @@
+#include<stdio.h>
+//Stephany Danae Perez Retana
+//Leer el numero y saber si es positivo.
+
+main () {
+//Declaro variables
+float numero;
+
+//Imprimo mensaje en la pantalla
+printf ("Ingresa un numero: ");
+scanf ("%f", &numero);
+
+if (numero == 0)
+    printf("El numero es 0\n");
+else if(numero >0)
+    printf("El numero es positivo\n");
+else if(numero < 0)
+    printf("El numero es negativo\n");
+
+
+}
