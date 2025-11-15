@@ -1,0 +1,32 @@
+#include<stdio.h>
+//Stephany Danae Perez Retana
+
+main () {
+//Declaro variables
+float numero_1;
+float numero_2;
+float numero_3;
+float promedio;
+
+//Imprimo mensaje en la pantalla
+printf ("Ingresa un numero: ");
+scanf ("%f", &numero_1);
+
+printf ("Ingresa otro numero: ");
+scanf ("%f", &numero_2);
+
+printf ("Ingresa otro numero: ");
+scanf ("%f", &numero_3);
+
+
+if (numero_1 < 0)
+{
+    promedio = (numero_1 * numero_2 * numero_3);
+    printf("Total es: %f \n", promedio);
+}
+else if(numero_1  >=0)
+{
+    promedio = (numero_1 + numero_2 + numero_3);
+    printf("Total es: %f \n", promedio);
+}
+}
