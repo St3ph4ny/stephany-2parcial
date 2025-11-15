@@ -1,0 +1,16 @@
+#include<stdio.h>
+//Stephany Danae Perez Retana
+//Leer un numero y decir si es 0
+
+main () {
+//Declaro variables
+int numero;
+
+printf ("Ingresa un numero: ");
+scanf ("%f", &numero);
+
+if (numero == 0)
+    printf("El numero ingresado es 0 \n");
+else
+    printf("No es 0 \n");
+}
